@@ -73,3 +73,43 @@ li.append("ie")
 print(type(li))
 ll=list(("one","two","three","rone"))
 print(ll[0],ll[-1])
+i=0
+while i< len(ll):
+    print(ll[1:4])
+    i=i+1
+ll[2]="changed"
+print(ll[:2])
+ll[1:45]=["TWO CHANGED","THREE CHANGED"]
+print(ll)
+ll.insert(2,"fourrrr")
+print(ll)
+fruit=["apple","banana","orange","cat","bbc"]
+newFruit=[]
+i=0
+# while i<len(fruit):
+#     if  "p" in fruit[i]:
+#         newFruit.append(fruit[i])
+#         i=i+1
+# print("new",newFruit)
+fruit.sort(reverse=True)
+print("fruit",fruit)
+nums=[89,2,12,4,81,67]
+def checkReminder(nums):
+    return nums/3
+nums.sort(key=checkReminder,reverse=True)
+print(nums)
+li2=ll.copy()
+print(li2)
+li3=ll[:]
+print(li3)
+liiiii=(nums+li)
+print(liiiii)
+
+liiiii.extend("99999")
+print(liiiii)
+print(liiiii.count(89))
+
+
+
+
+
