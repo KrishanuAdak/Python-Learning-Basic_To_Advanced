@@ -4,3 +4,6 @@ li2=("ee",)
 print(type(li2))
 # li[1]=("ed")
 # print(li)
+
+# List
+li3=[]
