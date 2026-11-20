@@ -32,6 +32,22 @@ A dictionary is a collection which is ordered*, changeable and do not allow dupl
 
 Unordered means that the items do not have a defined order, you cannot refer to an item by using an index.
 
+Set
+---
+Set is unordered and contains no duplicate values.
+
+
+List
+----
+List is a collection which is ordered and changeable. Allows duplicate members.
+
+Tuple
+-----
+
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+
+
+
 
 
 

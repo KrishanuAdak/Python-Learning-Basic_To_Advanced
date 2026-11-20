@@ -110,6 +110,19 @@ print(liiiii)
 print(liiiii.count(89))
 
 
+# Switch
+day='wednesday'
+
+match day:
+    case 'monday':
+        print(day)
+    case 'tuesday':
+        print('tuesday')
+    case 'wednesday':
+        print('wednesday')
+    case _ :
+        print('not found')
+
 
 
 
