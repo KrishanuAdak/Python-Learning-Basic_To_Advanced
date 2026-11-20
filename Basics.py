@@ -123,6 +123,14 @@ match day:
     case _ :
         print('not found')
 
+names=['bappa','soga','bobi','khan','king','bob','aja']
+i=0
+for name in names:
+    if name[i].startswith('k'):
+        break
+    else:
+        print(name)
+
 
 
 

@@ -1,3 +1,5 @@
+import datetime
+import datetime as dt
 add=lambda a,b,c:a+b
 print(add(1,2,3))
 
@@ -20,6 +22,11 @@ dict=dict({"name":"krii",
 # dict.clear()
 dict.pop("name")
 print(dict)
+print(dt.datetime.now())
+print(dt.time)
+a=[3,4,5];
+x=max(a)
+print(x)
 
 
 

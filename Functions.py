@@ -1,3 +1,4 @@
+import Functions as fc
 def add(a,b):
     return a+b
 
@@ -23,3 +24,20 @@ def tes():
       print(x)
     eeee()
 tes()
+
+
+def test1():
+     test2()
+def test2():
+    print('hey test2')
+test1()
+
+x=range(1,21)
+for i in x:
+    print(i)
+
+# Iterator
+fruits_list=['apple','banana','mango']
+itr=iter(fruits_list)
+print(next(itr))
+fc.test2()
